@@ -3,6 +3,7 @@ import { SectionListData, SectionListProps, TextStyle, ViewStyle } from "react-n
 export interface IData {
   value: string;
   key: string;
+  listData: { name: string; id: number}[];
 }
 
 export interface ISectionData {
