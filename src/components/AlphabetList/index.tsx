@@ -90,7 +90,6 @@ export const AlphabetList: React.FC<AlphabetListProps> = (props) => {
         ListHeaderComponent={renderCustomListHeader}
         stickySectionHeadersEnabled={false}
         getItemLayout={onGetItemLayout}
-        removeClippedSubviews
       />
 
       <ListLetterIndex

@@ -71,7 +71,7 @@ exports.AlphabetList = function (props) {
       </react_native_1.View>);
     };
     return (<react_native_1.View style={[styles_1.styles.container, style]}>
-      <react_native_1.SectionList {...sectionListProps} testID="sectionList" ref={sectionListRef} sections={sectionData} keyExtractor={function (item) { return item.key; }} renderItem={onRenderItem} renderSectionHeader={onRenderSectionHeader} ListHeaderComponent={renderCustomListHeader} stickySectionHeadersEnabled={false} getItemLayout={onGetItemLayout} removeClippedSubviews/>
+      <react_native_1.SectionList {...sectionListProps} testID="sectionList" ref={sectionListRef} sections={sectionData} keyExtractor={function (item) { return item.key; }} renderItem={onRenderItem} renderSectionHeader={onRenderSectionHeader} ListHeaderComponent={renderCustomListHeader} stickySectionHeadersEnabled={false} getItemLayout={onGetItemLayout}/>
 
       <ListLetterIndex_1.ListLetterIndex sectionData={sectionData} onPressLetter={onScrollToSection} indexContainerStyle={indexContainerStyle} indexLetterStyle={indexLetterStyle} indexLetterContainerStyle={indexLetterContainerStyle} letterListContainerStyle={letterListContainerStyle} renderCustomIndexLetter={renderCustomIndexLetter}/>
     </react_native_1.View>);
