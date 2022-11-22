@@ -88,7 +88,6 @@ export const AlphabetList: React.FC<AlphabetListProps> = (props) => {
         renderItem={onRenderItem}
         renderSectionHeader={onRenderSectionHeader}
         ListHeaderComponent={renderCustomListHeader}
-        stickySectionHeadersEnabled={false}
         getItemLayout={onGetItemLayout}
       />
 
